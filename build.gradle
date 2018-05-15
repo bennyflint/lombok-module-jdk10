@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'me.lombokmoduledemo'
+version '1.0'
+
+sourceCompatibility = 1.10
+targetCompatibility = 1.10
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    //lombok-edge version is 1.16.21
+    compileOnly files('libs/lombok-edge.jar')
+    testCompileOnly files('libs/lombok-edge.jar')
+    annotationProcessor files('libs/lombok-edge.jar')
+    testAnnotationProcessor files('libs/lombok-edge.jar')
+}
+

@@ -36,3 +36,4 @@ BUILD FAILED in 0s
 * Also fails using JAVA_HOME instead of org.gradle.java.home property
 * The stacktrace implies that gradle is using the Java compiler api and not javac
 * I also tried installing lombok-edge in my local maven repo and using the gradle-apt-plugin. I receive the same error as above.
+* Also tried using the gradle-lombok plugin with lombok-edge. I receive the same error.

@@ -33,6 +33,7 @@ BUILD FAILED in 0s
 * Lombok Version: lombok-edge.jar, version 1.16.21
 
 ## Notes
-* Also fails using JAVA_HOME instead of org.gradle.java.home property
+* Also fails using JAVA_HOME instead of org.gradle.java.home property.
 * I also tried installing lombok-edge in my local maven repo and using the gradle-apt-plugin. I receive the same error as above.
 * Also tried using the gradle-lombok plugin with lombok-edge. I receive the same error.
+* The build succeeds and Lombok correctly generates .class file when I remove module-info.java
